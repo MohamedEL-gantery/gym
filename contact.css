@@ -1,0 +1,54 @@
+/*main style*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+  }
+  html, body {
+    font-family:Arial, Helvetica, sans-serif;
+    color:darkslategray;
+  }
+  /*contact style*/
+  #contact {
+    display:flex;
+  }
+  
+  #contact .contact-us h1{
+    padding: 25px;
+    font-size: 30px;
+    line-height: 2;
+  }
+  #contact .contact-us {
+    padding:20px;
+    background-color:turquoise;
+     color: white; 
+  }
+  #contact .contact-us, 
+  #contact .map {
+      flex: 1;
+  }
+  #contact .contact-us input, 
+  #contact .contact-us textarea {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    margin-bottom: 30px;
+  }
+  #contact .contact-us .form-group {
+    display: flex;
+  }
+  #contact .contact-us .form-group input[type="text"] {
+    margin-right: 10px;
+  }
+  
+  #contact .contact-us .button {
+    background-color:darkslategray;
+    color:white;   
+  }
+
+  footer {
+    padding:30px;
+    text-align:center;
+     background-color:darkslategray;
+    color: white;
+  }

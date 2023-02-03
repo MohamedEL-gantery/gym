@@ -1,0 +1,40 @@
+/*main style*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #eaeaeae0;
+
+
+}
+ 
+ /* Our Programs */
+  h2 {
+   margin:80px;
+   text-align: center;
+   padding:50px;
+   font-size: 40px;
+}
+  h2  .sp{
+    color: #FF2E63;
+}
+ .boxes {
+  display: flex;
+  justify-content: space-between;
+   
+}
+
+ .boxes .box {
+  flex: 1;
+  padding:20px;
+  font-size:25px;  
+}
+ .boxes .box img {
+  width: 70px;
+  background-color: #08D9D6;
+  padding: 10px;
+  border-radius: 100%;
+  color: #252A34;
+}
+
